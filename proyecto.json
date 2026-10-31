@@ -1,0 +1,38 @@
+{
+  "proyecto": "Lente DIA · Profe Nexo en realidad aumentada",
+  "version": 1,
+  "autoria": "Proyecto DIA, Didáctica con IA · IA al Colorado",
+  "personaje": {
+    "nombre": "Profe Nexo",
+    "rol": "Docente digital de tecnología y software",
+    "agente_elevenlabs": "agent_9001m4y8fggcfem82qt6q2t997kd",
+    "aviso": "Personaje ficticio creado con IA. No es una persona real."
+  },
+  "lamina": {
+    "marca": "IA al Colorado",
+    "leyenda": "Enfocá con Lente DIA",
+    "formato": "A4",
+    "dpi": 300,
+    "png": "lamina-profe-nexo.png",
+    "pdf": "lamina-profe-nexo-A4.pdf",
+    "marcador_mind": "lamina-profe-nexo.mind"
+  },
+  "contenido": {
+    "tipo": "modelo3d",
+    "archivo": "profe-nexo.glb",
+    "altura_relativa": 0.92,
+    "modo_inicial": "inclinada",
+    "nodos": {
+      "cuello": "cuello", "brazo_izq": "brazo_izq", "codo_izq": "codo_izq",
+      "brazo_der": "brazo_der", "codo_der": "codo_der",
+      "cavidad": "boca_cavidad", "dientes": "boca_dientes", "lengua": "boca_lengua",
+      "labio_sup": "labio_sup", "labio_inf": "labio_inf", "comisuras": ["comisura_0", "comisura_1"]
+    }
+  },
+  "voz": {
+    "motor": "dispositivo",
+    "tono": 0.8,
+    "velocidad": 0.95,
+    "texto": "Hola, soy Profe Nexo, un docente digital creado con inteligencia artificial. No soy una persona real. Bienvenidos a la lente DIA. La inteligencia artificial puede ayudarte a estudiar, pero también puede equivocarse. Usala para aprender, no para copiar, y verificá siempre la información. ¿Empezamos?"
+  }
+}
